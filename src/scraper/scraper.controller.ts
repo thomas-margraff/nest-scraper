@@ -60,7 +60,7 @@ export class ScraperController {
     scrapeWeekPeriod(@Param() params, @Req() req: Request, @Res() res: Response) {
         const period: string = params.period.toLowerCase();
         this.doPeriodScrape(res, 'week', period);
-    }
+    } 
 
     // scrape ff website: month
     @Get('month/:period')

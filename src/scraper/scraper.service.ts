@@ -31,6 +31,7 @@ export class ScraperService {
             calendarData: [],
         };
 
+
         let prevDate = '';
         let prevTime = '';
         let title = '';
@@ -111,7 +112,9 @@ export class ScraperService {
                     rt = origTime;
                 }
     
+                // for year change
                 if (eventId) {
+                    console.log(ccy + ' ' + origDate.trim() + ', ' + yyyy + ' ' + indicatorName);
                     if (prevDateTime) {
                         if (prevDateTime.month() > dt.month()) {
                             dt.add(1, 'year');

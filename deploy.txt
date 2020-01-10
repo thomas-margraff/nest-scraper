@@ -1,0 +1,6 @@
+azure url = https://nestjs-scrape.azurewebsites.net/api/scraper/week/this
+swagger webapi = http://localhost:5100/swagger/index.html
+local iis webapi = http://localhost:5100/api/Scrape/GetScrape
+
+deployment info page:
+https://trilon.io/blog/deploy-nestjs-azure-functions#Open-up-that-url-http-localhost-7071-api-in-your-browser-you-should-see-
